@@ -215,7 +215,7 @@ h3{
 }
 
 #boton_copiar{
-    background: url(./imagenes/Boton_Copiar.png) no-repeat;
+    background: url(imagenes/Boton_Copiar.png) no-repeat;
     width: 50px;
     height: 50px;
     border: none;
