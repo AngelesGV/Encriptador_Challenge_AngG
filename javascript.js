@@ -65,8 +65,10 @@ function Dese_Encriptar(StEncriptador){
                 StEncriptador = StEncriptador.replaceAll(LRemplazo[n][1], LRemplazo[n][0])
             }
         }
+        
     
         return StEncriptador;
+
     }
 
 }
