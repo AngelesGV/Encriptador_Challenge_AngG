@@ -42,7 +42,7 @@
     }
     
     #TituloPaginaT{
-        padding-top: 2%;
+        padding-top: 3%;
     }
 
     #TituloPaginaE, #TituloPaginaT{
@@ -194,8 +194,5 @@
         margin-left: 20%;
         margin-right: auto;
     }
-
-}
-    
 
 }
