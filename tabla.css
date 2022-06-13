@@ -183,6 +183,17 @@
     position: absolute;
     right: 8%;
     cursor: pointer;
+    }
+
+    #link-github{
+        text-decoration: none;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-left: 20%;
+        margin-right: auto;
+    }
 
 }
     
