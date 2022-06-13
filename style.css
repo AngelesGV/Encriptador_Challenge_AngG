@@ -1,0 +1,436 @@
+body{
+    height: auto;
+    width: 100%;
+    background: linear-gradient(#0A3871, #4A98F8) no-repeat;
+    margin: 0%;
+    background-attachment: fixed;
+}
+
+header{
+    width: 100%;
+    background: white;
+    height: 60px;
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#Identificador{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin-left: 4%;
+    line-height: 35%;
+}
+
+#logo{
+    width: 54px;
+    height: 51px;
+}
+
+#Tlogo{
+    width: 300px;
+    padding: 2%;
+    margin: 0%;
+    font-family: 'alata';
+    color: #0A3871;
+    margin-left: 1%;
+    font-size:26px;
+    font-family: 'alata';
+    font-weight: 700;
+}
+
+#TituloPaginaE {
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+#TituloPaginaT{
+    padding-top: 4%;
+}
+
+
+#Identificador_Alura{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5%;
+    line-height: 35%;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#Logo_A{
+    width: 31px;
+    height: 50px;
+}
+
+#Tlogo_A{
+    width: 250px;
+    padding: 0%;
+    padding-top: 3%;
+    margin: 0% 0% 0% 1%;
+    font-family: alata;
+    color: rgb(10, 56, 113);
+    font-size:26px;
+    font-family: 'alata';
+    font-weight: 700;
+    position: static;
+
+}
+
+#Secciones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 36px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 92%;
+}
+
+#S1{
+    width: 50%;
+}
+
+#S2{
+    width: 50%;
+    margin-left: 6%;
+}
+
+#logoG{
+    width: 25px;
+    height: 25px;
+    margin-top: 1%;
+}
+
+h3{
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+#item_1{
+    width: 110%;
+    height: 400px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    box-shadow: 10px 14px 16px rgba(0, 0, 0, 0.26);
+    padding: 5%;
+    outline:none;
+
+
+}
+
+#IngresoTexto{
+    width: 99%;
+    height: 390px;
+
+    background: #FFFFFF;
+    color: #0A3871;
+    border: none;
+    font-size: 20px;
+    font-weight:lighter;
+    resize: none;
+    outline:none;
+}
+
+#IngresoTexto::-webkit-scrollbar{
+    -webkit-appearance: none;
+    width: 10px;
+}
+
+#IngresoTexto::-webkit-scrollbar-thumb {
+    background-color: #006c97;
+    border-radius: 20px;
+    border: 1px solid #f1f2f3;
+}
+
+#IngresoTexto::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+#IngresoTexto::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+#IngresoTexto::-webkit-scrollbar:horizontal {
+    height: 5px;
+}
+
+
+::placeholder{
+    color: #31557e;
+}
+
+#cuerpo_2{
+    margin-left: 20%;
+    width: 60%;
+    height: 90%;
+
+    background: #FFFFFF;
+    box-shadow: 10px 14px 16px rgba(0, 0, 0, 0.26);
+    border-radius: 32px;
+    padding: 5% 7% 5% 7%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#Muestra_E_D{
+    width: 100%;
+    height: 94%;
+    background: none;
+    border: none;
+
+    font-size: 20px;
+    color: #0A3871;
+    font-weight:lighter;
+
+    resize: none;
+    outline:none;
+    word-wrap: break-word;
+
+}
+
+#Muestra_E_D::-webkit-scrollbar{
+    -webkit-appearance: none;
+    width: 10px;
+}
+
+#Muestra_E_D::-webkit-scrollbar-thumb {
+    background-color: #006c97;
+    border-radius: 20px;
+    border: 1px solid #f1f2f3;
+}
+
+#Muestra_E_D::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+#Muestra_E_D::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+#Muestra_E_D::-webkit-scrollbar:horizontal {
+    height: 5px;
+}
+
+#boton_copiar{
+    background: url(/imagenes/Boton_Copiar.png) no-repeat;
+    width: 50px;
+    height: 50px;
+    border: none;
+    position: absolute;
+    right: 5.5%;
+    margin-top: 0.6%;
+    cursor: pointer;
+}
+
+#item_2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+}
+
+#Ico_Aviso{
+    width: 2.5%;
+    height: 2.5%;
+}
+
+#Aviso_L{
+    color: white;
+    padding: 0%;
+    margin: 0%;
+    margin-left: 2%;
+    font-weight: lighter;
+}
+
+#item_3{
+    margin-left: 12%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#BotonEn{
+
+    /*Cuerpo*/
+    background-color: #0A3871;
+    border: none;
+    width: 282px;
+    height: 72px;
+    border-radius: 24px;
+    padding: 24px;
+
+    /*Letras*/
+    font-family:'Varela';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    /*efecto*/
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: .3s ease all;
+}
+
+#BotonEn span{
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+}
+
+#BotonEn::after{
+    content: "";
+    width: 100%;
+    border: 37px solid;
+    border-image: linear-gradient(to right, #9747FF 0.08%, #1C00C5 99.78%) 1;
+    
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: calc(-100% - 74px);
+    transition: .4s ease-in-out all;
+}
+
+#BotonEn:hover::after{
+    left: 0%;
+}
+
+#BotonDes{
+    /*Cuerpo*/
+    padding: 24px;
+    width: 282px;
+    height: 72px;
+    margin-left: 4%;
+    background: #F7FAFF;
+    border: none;
+    border-radius: 24px;
+    padding: 20px;
+
+    /*Letras*/
+    font-family:'Varela';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #0A3871;
+    letter-spacing: 1px;
+
+    /*efecto*/
+    cursor: pointer;
+    position:relative;
+    overflow: hidden;
+    transition: .3s ease-in-out all;
+}
+
+#BotonDes::after{
+    content: "";
+    width: 100%;
+    border: 80px solid;
+    border-image: linear-gradient(to right, #03008A 10.49%, #9747FF 99.84%) 1;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: calc(-100% - 160px);
+    transition: .4s ease-in-out all;
+}
+#BotonDes:hover::after{
+    left:0;
+}
+
+#BotonDes span{
+    position: relative;
+    z-index: 2;
+    transition: .3 ease all;
+}
+
+#BotonDes:hover span{
+    color: white;
+}
+
+
+footer{
+    background: #0c2c53;
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    color: white;
+    margin-bottom: 0%;
+    bottom: 0%;
+    padding-top: 1%;
+}
+
+#link-github{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    margin-left: 40%;
+    margin-right: auto;
+}
+
+#copyr{
+    line-height: 43px;
+    padding: 2% 0 2% 0;
+}
+
+#logoG{
+    line-height: 50px;
+    padding: 2% 0 2% 0;
+
+}
+
+#muestreo{
+    text-align: center;
+    margin-top: 15%;
+    
+}
+
+#robotito{
+    width: 80%;
+    height: 50%;
+}
+
+#ms1{
+    margin-top: 8%;
+    font-weight: 700;
+    font-size: 20px;
+    color: #0A3871;
+    font-family: 'varela';
+}
+#ms2{
+    font-weight: 400px;
+    font-size: 16px;
+    margin-top: 2.5%;
+    color: #495057;
+    font-family: 'varela';   
+    line-height: 145%;
+}
+
+#text-resultado{
+    display: none;
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+#TR-1{
+    height: 95%;
+}
+
+#TR-2{
+    
+    height: 5%;
+}

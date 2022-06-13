@@ -1,0 +1,190 @@
+@media screen and (max-width: 800px){
+
+    #contendor{
+        display: flex;
+        box-sizing: content-boxs;
+        flex-direction: column;
+    }
+
+    header{
+        width: 100%;
+        background: white;
+        height: 45px;
+        display: flex;
+        padding-top: 2%;
+        padding-bottom: 1%;
+    }
+
+    #Identificador{
+        width: 50%;
+        margin-left: 5%;
+    }
+
+    #logo{
+        width: 35px;
+        height: 35px;
+    }
+    
+    #Tlogo{
+        width: 300px;
+        padding: 0%;
+        margin: 0%;
+        font-family: 'alata';
+        color: #0A3871;
+        margin-left: 2%;
+        font-size: 18px;
+        font-family: 'alata';
+        font-weight: 700;
+    }
+
+    #TituloPaginaE {
+        padding-top: 2%;
+    }
+    
+    #TituloPaginaT{
+        padding-top: 2%;
+    }
+
+    #TituloPaginaE, #TituloPaginaT{
+        padding: 0%;
+        margin-top: 4%;
+    }
+
+    #Logo_A{
+        width: 25px;
+        height: 42px;
+        margin-left: 45%;
+        margin-right: 15%;
+    }
+    
+    #Tlogo_A{
+        display: none;
+    }
+
+    #Secciones{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 36px;
+        width: 80%;
+    }
+    
+    #S1{
+        width: 100%;
+        max-width: 500px; 
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    #S2{
+        width: 100%;
+        margin-top: 6%;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+    }
+
+    #item_1{
+        width: 100%;
+    }
+
+    #IngresoTexto{
+        width: 90%;
+        height: 350px;
+        font-weight: 600;
+        border: 5px #000000;
+        
+        font-size: 18px;
+        padding: 5%;
+        resize: none;
+        outline:none;
+    }
+
+    #item_3{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-left: 6%;
+        margin-right: auto;
+    }
+
+    #BotonEn{
+
+        /*Cuerpo*/
+        width: 200px;
+        height: 65px;
+        border-radius: 20px;
+        padding: 20px;
+    
+        /*Letras*/
+        font-size: 16px;
+        color: white;
+        line-height: 23px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    #BotonDes{
+        /*Cuerpo*/
+        width: 200px;
+        height: 65px;
+        margin-left: 6%;
+        background: #F7FAFF;
+        border: none;
+        border-radius: 20px;
+        padding: 20px;
+    
+        /*Letras*/
+        font-family:'Varela';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+        color: #0A3871;
+        letter-spacing: 1px;
+
+    }
+
+
+    #logoG{
+        line-height: 60px;
+        padding-top: 1%;
+    }
+
+
+    #cuerpo_2{
+        width: 95%;
+        min-height: 100px;
+        margin-left: 0%;
+    
+        background: #FFFFFF;
+        box-shadow: 10px 14px 16px rgba(0, 0, 0, 0.26);
+        border-radius: 26px;
+        padding: 5% 8% 5% 7.5%;
+    
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Muestra_E_D{
+        background: none;
+        font-weight: 600;
+        font-size: 18px;
+        min-height: 80px;
+
+    }
+
+    #boton_copiar{
+    background: url(/imagenes/Boton_Copiar2.png) no-repeat;
+    width: 28px;
+    height: 28px;
+    border: none;
+    position: absolute;
+    right: 8%;
+    cursor: pointer;
+
+}
+    
+
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="tabla.css">
+
+        <link rel="shortcut icon" type="imagen/png" href="./imagenes/favicon.png">
+        <style>
+            @import url('https://fonts.googleapis.com/css2? family=Alata&family=Aleo&display=swapfamilia=Roboto&family=Varela&display=swap');
+        </style>
+    </head>
+    <body>
+        <div id="contenedor">
+            <header>
+                <div id="Identificador">
+                    <img id="logo" src="./imagenes/logo.png">
+                    <div id="Tlogo">
+                        <h1 id="TituloPaginaE">Encriptador de</h1>
+                        <h1 id="TituloPaginaT">Texto</h1>
+                    </div>
+                </div>
+
+                <div id="Identificador_Alura">
+                    <img id="Logo_A" src="./imagenes/alura_logo.png">
+                    <div id="Tlogo_A">
+                        <h1 id="Titulo_Alura">Alura Challenge</h1>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div id="Secciones"> 
+                    <section id="S1">
+                        <div id="item_1">
+                            <textarea type="text" onkeypress="return Restrinccion(event)" id="IngresoTexto" class="input_text" placeholder="Ingrese el texto aqui..."></textarea>
+                        </div>
+
+                        <div id="item_2">
+                            <img id="Ico_Aviso"src="./imagenes/iconoaviso.png">
+                            <h4 id="Aviso_L"> Solo letras minúsculas y sin acento</h6>
+                        </div>
+
+                        <div id="item_3">
+                            
+                            <button id="BotonEn" type="button" onclick="Boton_Encriptar()"><span>Encriptar</span></button>
+                            <div id="Desencriptar">
+                                <button id="BotonDes" type="button" onclick="Boton_Dese_Encriptar()"><span id="SD">Desencriptar</span></button>
+                            </div>
+                        </div>
+
+
+                    </section>
+                    <section id="S2">
+                        <div id="cuerpo_2">
+                            <div id="muestreo">
+                                <div id="robot">
+                                    <img id="robotito" src="imagenes/robot.png" />
+                                </div>
+                        
+                                <div id="infor">
+                                    <p id="ms1"><strong>Ningún mensaje fue encontrado</strong></p>
+                                    <p id="ms2"><span> Ingresa el texto que desees codificar o decodificar</span></p>
+                                </div>
+                            </div>
+                            <div id="text-resultado">
+                                <div id="TR-1">
+                                    <textarea id="Muestra_E_D" disabled onkeypress="return Restrinccion(event)" class="input_text_Muestra" data-min-rows='3' ></textarea>
+                                </div>
+                                <div id="TR-2">
+                                    <input id="boton_copiar" type="button"  class="button_copiar"  onclick="copy()"/>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+
+                </div>
+               
+            </main>
+            <footer>
+                <a id="link-github" href="https://github.com/AngelesGV/Encriptador_Challenge_AngG"><img id="logoG" src="./imagenes/icono_github_1.png"><h3 id="copyr"> Copyright&copy; -  Angeles Guillen</h3></a>
+                <script src="javascript.js"></script>
+                <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.3/clipboard.min.js"></script>
+            </footer>
+
+        </div>
+    </body>
+</html>
