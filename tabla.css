@@ -38,16 +38,11 @@
     }
 
     #TituloPaginaE {
-        padding-top: 2%;
+        padding-top: 6%;
     }
     
     #TituloPaginaT{
         line-height: 10px;
-    }
-
-    #TituloPaginaE, #TituloPaginaT{
-        padding: 0%;
-        margin-top: 6%;
     }
 
     #Logo_A{
